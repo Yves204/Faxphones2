@@ -1,0 +1,857 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+@media screen and (max-width: 1920px) {
+body {
+    max-width: 1920px;
+}
+
+} 
+    
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/background.jpg);
+    height: 200vh;
+    background-size: cover;
+    background-position:center;
+  
+}
+ul {
+    padding-top: 50px;
+    float: center;
+    margin-top: 5px;
+    font-size: 16px;
+   
+
+}
+ ul li {
+    display: inline-block;
+    
+    
+ }
+ 
+ ul li a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.5s;
+
+ }
+
+ ul li a:hover {
+    background-color: #fff;
+    color: #000;
+ }
+
+  .logo img {
+    float:left;
+    width: 150px;
+    height:auto;
+  }
+.main {
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.iphone14 {
+    display: block;
+    margin-left: 350px;
+    width: 80px;
+    padding-top: 150px;
+    
+   
+}
+
+
+
+
+.iphone14-text {
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left:150px;
+    width: 230px;
+    color: #fff;
+}
+.iphone14-button {
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 26px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 13px;
+
+}
+.iphone14-button:hover {
+    cursor: pointer;
+    width: 110px;
+    font-size: 15;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+}
+.iphone14-button:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+
+.iphone13  {
+    display: block;
+    width: 500px;
+    margin-left: 350px;
+    margin-top: 55px;
+    
+}    
+.iphone13-text {
+display: inline-block;
+font-family: Arial;
+font-weight: bold;
+font-size: 30px;
+margin-top: -20px;
+margin-left: 515px;
+width: 230px;
+color: white;
+}
+.price12 {
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 570px;
+    width: 230px;
+    color: white;
+
+}
+
+.price13 {
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 220px;
+    width: 230px;
+    color: white;
+
+}
+
+.iphone13-btn {
+    display: block;
+    margin-left: 560px;
+    margin-top: 22px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: grey;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 13px;
+}
+
+.iphone13-btn:hover {
+
+ cursor: pointer;
+width: 110px;
+font-size: 15;
+box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+}
+.iphone13-btn:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+
+.container {
+    margin-top: 33px;
+}
+
+.title {
+
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250px;
+    margin-left:800px;
+    margin-top: 350px;
+    width: 300px;
+
+}
+.aboutus-title {
+    color: white;
+    font-family: Arial;
+    padding-top:  20px;
+    margin-left: 450px;
+    text-align: left;
+    font-size: 35px;
+    
+    
+}
+
+.aboutus-p {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.aboutus-help {
+  color: #fff;
+  font-family: Arial;
+  font-size: 35px;
+  margin-left: 380px;
+  margin-top: 25px;
+}
+
+.aboutus-info {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    margin-right: 70px;
+}
+.contactus-link {
+    color: white;
+    font-family: Arial;
+    margin-left: 530px;
+    
+}
+
+.watch1 {
+    display: block;
+    width: 150px;
+    margin-left: 350px;
+    margin-top: 150px;
+}
+
+.watch1-p {
+ display: inline-block;
+font-family: Arial;
+font-weight: bold;
+font-size: 30px;
+margin-top: 5px;
+margin-left: 60px;
+width: 315px;
+color: white;
+}
+
+.apple-price {
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 185px;
+    width: 230px;
+    color: white;
+
+
+}
+
+.watch1-button {
+    display: block;
+    margin-left: 169px;
+    margin-top: 22px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: grey;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 13px;
+}
+
+.watch1-button:hover {
+    cursor: pointer;
+    width: 110px;
+    font-size: 15px;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+}
+
+.watch1-button:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+.watch2 {
+    display: block;
+    width: 450px;
+    margin-top: 200px;
+    margin-left: 320px;
+
+}
+
+.applew-price {
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 210px;
+    width: 230px;
+    color: white;
+    padding-left: 305px;
+
+
+}
+
+
+
+.watch2-text {
+
+ display: inline-block;
+font-family: Arial;
+font-weight: bold;
+font-size: 30px;
+margin-top: 5px;
+margin-left: 400px;
+width: 340px;
+color: white;
+
+}
+
+.watch2-button {
+    display: block;
+    margin-left: 500px;
+    margin-top: 30px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: grey;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 13px;
+
+
+}
+.watch2-button:hover {
+    cursor: pointer;
+    width: 110px;
+    font-size: 15px;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+
+}
+
+.watch2-button:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+.accessories {
+    margin-left: 270px;
+    margin-top: 110px;
+}
+
+
+.charger-image {
+    display: block;
+    margin-left: 650px;
+    margin-top: 150px;
+    width:300px;
+
+}
+
+.charger-text {
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: 90px;
+    width: 350px;
+    color: white;
+}
+
+.charger-price {
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 215px;
+    width: 230px;
+    color: white;
+
+}
+.charger-btn {
+    display: block;
+    margin-left: 196px;
+    margin-top: 22px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: grey;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 13px;
+
+}
+.charger-btn:hover {
+    cursor: pointer;
+    width: 110px;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+}
+.charger-btn:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+.airpods-image {
+  width: 150px;
+  margin-left:650px;
+ 
+}
+
+.airpods-text {
+
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -15px;
+    margin-left: 85px;
+    width: 350px;
+    color: white;
+
+}
+
+.airpods-price {
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 215px;
+    width: 230px;
+    color: white;
+
+
+
+}
+
+.airpods-button {
+
+
+        display: block;
+        margin-left: 200px;
+        margin-top: 22px;
+        width: 100px;
+        height: 25px;
+        border: 0;
+        background-color: grey;
+        color: #fff;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #000;
+        border-radius: 20px;
+        transition: 0.25s;
+        font-size: 13px;
+
+
+}
+
+
+.airpods-button:hover {
+    cursor: pointer;
+    width: 110px;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+    
+}
+.airpods-button:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+.samsung22-container {
+    display: block;
+
+
+}
+.samsung22 {
+    margin-left: 700px;
+    margin-top: 200px;
+    width: 250px;
+
+}
+.samsung22-text {
+
+    display: block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 110px;
+    width: 350px;
+    color: white;
+
+}
+
+
+.samsung-price {
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 215px;
+    width: 230px;
+    color: white;
+
+
+
+}
+.samsung22-button {
+
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 26px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 13px;
+ 
+ 
+}
+
+.samsung22-button:hover {
+    cursor: pointer;
+    width: 110px;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+    
+}
+.samsung22-button:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+
+
+h1 {
+    font-size: 35px;
+    display: block;
+    text-align: left;
+    margin-left: 25px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+h3{
+    font-size: 17px;
+    display: block;
+    text-align: left;
+    margin-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color:white;
+    margin-left: 25px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    display: block;
+    margin-left: 25px;
+    margin-top: 30px;
+
+}
+
+span {
+    color: rgb(209, 175, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span:hover{
+    cursor:pointer;
+}
+
+.service {
+    display: inline-block;
+    margin-top: 35px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    height: 120px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.25s;
+    margin-bottom: 45px;
+    
+}
+
+.box {
+    text-align: center;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.contact-info {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.service:hover {
+    width:315px;
+    height: 135px;
+    cursor: pointer;
+}
+
+.service2 {
+    display: inline-block;
+    margin-top: 35px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    height: 120px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.25s;
+    margin-bottom: 45px;
+    margin-left: 120px;
+    vertical-align: top;
+
+
+}
+
+.box2{
+    text-align: center;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+
+}
+
+.contact-info2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.service2:hover {
+    width:315px;
+    height: 135px;
+    cursor: pointer;
+
+}
+
+.aboutus-div {
+    margin-top: 250px;
+}
+#message-title {
+    font-size: 20px;
+    color: rgb(92, 92, 248);
+    z-index: 100;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-top: 20px;
+    text-align: center;
+
+    
+}
+#message-p {
+    display: block;
+    font-size: 10px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    z-index: 100;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 140px;
+
+}
+
+.container-forum {
+    
+background-color: white;
+height: 500px;
+width: 600px;
+display: inline-block;
+margin-top: 200px;
+margin-left: 200px;
+border: none;
+border-radius: 7px;
+
+}
+
+
+
+#name-forum {
+    display: block;
+    border-width: 1px ;
+    border-color: rgb(155, 155, 155);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    width: 150px;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: -80;
+    border-style: solid;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+#email-forum {
+   display: block;
+   border-width: 1px;
+   border-color: rgb(155, 155, 155);
+   border-style: solid;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   width: 150px;
+   height: 25px;
+   margin-top: 10px;
+   margin-left: 20px;
+   padding-left: 10px;
+   border-radius: 5px;
+}
+#message {
+    display: block;
+    border-width: 1px;
+    border-color: rgb(155, 155, 155);
+    border-style: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    width: 150px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 100px;
+    width: 400px;
+    padding-left: 5px;
+    padding-bottom: 50px;
+   border-radius: 5px;
+}
+
+#submit-forum {
+display: block;
+margin-left: 450px;
+margin-top: 125px;
+font-family: Arial, Helvetica, sans-serif;
+width: 100px;
+height: 30px;
+background-color: blueviolet;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.15s;
+}
+#submit-forum:hover {
+cursor: pointer;
+box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+
+}
+
+#submit-forum:active {
+    background-color: rgb(215, 171, 255);
+}
+
+.container-forum2{
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 120px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-left: 700px;
+    border-radius: 5px;
+
+
+}
+.forum-heading {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 200px;
+  padding-top: 10px;
+
+}
+
+.forum-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: -161px;
+    padding-top: 50px;
+    padding-left: 0;
+
+}
+
+.forum-link:hover {
+text-decoration: underline;
+
+}
+
+.amazon {
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.amazon2 {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
